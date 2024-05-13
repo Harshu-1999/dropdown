@@ -1,0 +1,52 @@
+/* #img1{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+/* #img2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+/* #img2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+} */ 
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to left bottom,rgb(199, 164, 164), rgb(122, 122, 201), rgb(238, 238, 73), rgb(83, 224, 83),white);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    background-color: rgb(163, 223, 166);
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    padding: 30px;
+    display: block;
+}
+a:hover{
+    background-color: pink;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(163, 163, 219);
+    position: absolute;
+    display: none;
+}
+#drop:hover #menu {
+    display: block;
+
+}
