@@ -16,7 +16,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(to left bottom,rgb(199, 164, 164), rgb(122, 122, 201), rgb(238, 238, 73), rgb(83, 224, 83),white);
+    background-image: black;
     height: 100vh;
 }
 nav{
